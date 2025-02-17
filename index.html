@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste de Musiques</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Liste de Musiques</h1>
+    <h2>Mon top 10 des meilleurs albums de tous les temps</h2>
+    <div id="album-container"></div>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+
+    <h3>Ajouter un nouvel album</h3>
+    <form id="albumForm">
+        <label for="image" class="custom-file-label">Cover : </label>
+        <input type="file" id="image" name="image" accept="image/*" required><br>
+        <label for="lien">Lien de l'album (URL) :</label>
+        <input type="text" id="lien" name="lien" required><br>
+        <label for="audio">Audio (URL) :</label>
+        <input type="text" id="audio" name="audio" required><br>
+        <label for="description">Description :</label>
+        <input type="text" id="description" name="description" required><br>
+        <label for="texte">Texte :</label>
+        <input type="text" id="texte" name="texte" required><br>
+        <button type="button" id="previewButton">Prévisualiser le nouvel album</button>
+    </form>
+    <div id="preview-album"></div>
+    <script src="script_formulaire.js"></script>
+</body>
+<footer>
+    <p>Tous droits réservés.</p>
+    <p>Crédits :</p>
+    <div class="links">
+        <div class="link-row">
+            <a href="https://images.app.goo.gl/7MVXRyNsbnd9JKtd8">Cover 1</a>
+            <a href="https://images.app.goo.gl/FqD8AYUtdY4NDzkR7">Cover 2</a>
+            <a href="https://images.app.goo.gl/thqwkvYabJPGoAEz7">Cover 3</a>
+            <a href="https://images.app.goo.gl/ZkdHMQvDjpeT8VSV8">Cover 4</a>
+            <a href="https://images.app.goo.gl/wQGMh8iGCo1ieVP59">Cover 5</a>
+            <a href="https://images.app.goo.gl/t7ZPwwkGAy6pb8uMA">Cover 6</a>
+            <a href="https://images.app.goo.gl/ySkevXAGaaJkkbKAA">Cover 7</a>
+        </div>
+        <div class="link-row">
+            <a href="https://images.app.goo.gl/A9LQKwKXUMkZwT616">Cover 8</a>
+            <a href="https://images.app.goo.gl/fbXA28fvFQ8hTm3H6">Cover 9</a>
+            <a href="https://images.app.goo.gl/jNJamkZsm7QD8ycg8">Cover 10</a>
+            <a href="https://www.youtube.com/playlist?list=PLSbDLF8wQ3oKcstd9ybCSv2lNm_8NTYkI">Album 1</a>
+            <a href="https://www.youtube.com/playlist?list=PLSdoVPM5WnndSQEXRz704yQkKwx76GvPV">Album 2</a>
+            <a href="https://www.youtube.com/playlist?list=PLue_k3rjMkaAxEHRjNCdjL5XVJUsUU0Sx">Album 3</a>
+            <a href="https://www.youtube.com/playlist?list=PLFAcddgaFN8zqIJrTakvM9qWnR7iIrXnj">Album 4</a>
+        </div>
+        <div class="link-row">
+            <a href="https://www.youtube.com/playlist?list=OLAK5uy_nc43MhHfperN5ZrIST7rsl0o5NOURZISk">Album 5</a>
+            <a href="https://www.youtube.com/playlist?list=PLsHmNwZknGgPHdhYvo2tcH-GqIrp3irE8">Album 6</a>
+            <a href="https://www.youtube.com/playlist?list=PL7RVBKKO9UqyEr8kqLe9152SIktQjDl64">Album 7</a>
+            <a href="https://www.youtube.com/playlist?list=OLAK5uy_lQN_yR7RQie0jnpJ349k9psVApO4peUhc">Album 8</a>
+            <a href="https://www.youtube.com/playlist?list=PLKpH9TsJs6VLqp2I259RtVAi803qk8pCU">Album 9</a>
+            <a href="https://www.youtube.com/playlist?list=OLAK5uy_k7FTSn7ydw3cNY9X5w2UJYVO7fLXPDTik">Album 10</a>
+            <a href="https://www.youtube.com/watch?v=5NV6Rdv1a3I">Audio 1</a>
+            <a href="https://www.youtube.com/watch?v=TCd6PfxOy0Y">Audio 2</a>
+        </div>
+        <div class="link-row">
+            <a href="https://www.youtube.com/watch?v=NOMa56y_Was">Audio 3</a>
+            <a href="https://www.youtube.com/watch?v=7CTJcHjkq0E">Audio 4</a>
+            <a href="https://www.youtube.com/watch?v=MxEjnYdfLXU">Audio 5</a>
+            <a href="https://www.youtube.com/watch?v=d-JBBNg8YKs">Audio 6</a>
+            <a href="https://www.youtube.com/watch?v=GYE9H4SMq5E">Audio 7</a>
+            <a href="https://www.youtube.com/watch?v=Qeem6ZVr8Ic">Audio 8</a>
+            <a href="https://www.youtube.com/watch?v=_8Gyye3NQRs">Audio 9</a>
+            <a href="https://www.youtube.com/watch?v=odeHP8N4LKc">Audio 10</a>
+        </div>
+    </div>
+</footer>
+</html>
